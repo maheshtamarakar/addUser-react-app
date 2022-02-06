@@ -1,0 +1,12 @@
+.user-items {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.user-items .user-item__inner {
+  border: 1px solid #c9c0c0;
+  padding: 8px 10px;
+  margin: 8px 0;
+}
+/*# sourceMappingURL=UserItem.css.map */

@@ -1,0 +1,16 @@
+.user-inputs {
+  margin: 40px 0;
+}
+
+.user-inputs .form .user-input label {
+  display: block;
+  font-weight: bold;
+}
+
+.user-inputs .form .user-input input {
+  width: 100%;
+  margin: 10px 0;
+  outline: none;
+  padding: 4px;
+}
+/*# sourceMappingURL=UserInput.css.map */

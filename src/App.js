@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import { UserInput } from './Components/UserInput/UserInput';
+
+import { UserItem } from './Components/UserItem/UserItem';
+
+const users = [
+  // {
+  //   username: "mahesh",
+  //   age: 21,
+  // },
+  // {
+  //   username: "kunal",
+  //   age: 22,
+  // },
+  // {
+  //   username: "parikshit",
+  //   age: 20,
+  // },
+];
 
 function App() {
+  const [user, setUser] = useState(users);
+
+
+  const userInputHandler = (userInput) => {
+    setUser((prevUser) => {
+      return [...prevUser, userInput];
+    })
+
+  }
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UserInput onSubmitUser = {userInputHandler}/>
+      <UserItem users = {user}/>
     </div>
   );
 }

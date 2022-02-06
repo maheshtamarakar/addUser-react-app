@@ -1,0 +1,19 @@
+.user-inputs{
+    margin: 40px 0;
+    .form{
+        .user-input{
+
+            label{
+                display: block;
+                font-weight: bold;
+                
+            }
+            input{
+                width: 100%;
+                margin: 10px 0;
+                outline: none;
+                padding: 4px;
+            }
+        }
+    }
+}

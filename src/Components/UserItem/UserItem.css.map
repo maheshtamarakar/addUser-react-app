@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,KAAK;EACvB,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,IAAI;CAOtB;;AAVD,AAII,WAJO,CAIP,iBAAiB,CAAA;EACb,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAkB;EACpC,OAAO,EAAE,QAAQ;EACjB,MAAM,EAAE,KAAK;CAEhB",
+    "sources": [
+        "UserItem.scss"
+    ],
+    "names": [],
+    "file": "UserItem.css"
+}
